@@ -16,9 +16,11 @@ zhengwei_id="1412398173"     #郑伟
 andong_id= "1717783440"      #安栋
 tianchenming_id="1607192000" #田辰明
 ganshijia_id="1404064013"    #甘世佳
-                             #李培境
-                             #薛钦之
-                             #胡洋
+tuhuabing_id="2622511651"    #屠化冰
+yanjun_id="1725681421"       #严俊
+huyang_id="1749261823"       #胡洋
+                             #薛钦之 weibo连夜注销
+                             #李培境  未找到weibo账号，但估计没跑了
 
 
 
@@ -30,7 +32,7 @@ class HuoZun(object):
         self.all_focus_list=f"{self.out_path}/all_focus_list.json"
         self.close_relation=f"{self.out_path}/close_relation.json"
         self.user_list=[
-            huozun_id,pingan_id,timo_id,songsiheng_id,zhengwei_id,andong_id,tianchenming_id,ganshijia_id,
+            huozun_id,pingan_id,timo_id,songsiheng_id,zhengwei_id,andong_id,tianchenming_id,ganshijia_id,tuhuabing_id,yanjun_id,huyang_id
         ]
 
     def GenHeader(self):
